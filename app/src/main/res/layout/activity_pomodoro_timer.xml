@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:digit="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_pomodoro_timer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.kardelenapp.pomodorotimer.PomodoroTimer">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+         >
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="3dp">
+
+            <TextView
+                android:text="0"
+                android:layout_height="match_parent"
+                android:id="@+id/textView1"
+                android:layout_alignParentTop="true"
+                android:layout_alignBottom="@+id/tabDigit4"
+                android:textStyle="normal|bold"
+                android:layout_toRightOf="@+id/tabDigit4"
+                android:layout_width="30dp"
+                android:textAlignment="center"
+                android:gravity="center_vertical|center_horizontal"
+                android:textColor="@android:color/background_light"
+                android:background="@android:color/background_dark"
+                tools:textSize="24sp"
+                android:layout_weight="1"
+                tools:text="0"
+                android:textSize="50sp" />
+
+            <TextView
+                android:text="0"
+                android:layout_height="match_parent"
+                android:id="@+id/textView2"
+                android:layout_alignParentTop="true"
+                android:layout_alignBottom="@+id/tabDigit4"
+                android:textStyle="normal|bold"
+                android:layout_toRightOf="@+id/tabDigit4"
+                android:layout_width="30dp"
+                android:textAlignment="center"
+                android:gravity="center_vertical|center_horizontal"
+                android:textColor="@android:color/background_light"
+                android:background="@android:color/background_dark"
+                tools:textSize="24sp"
+                android:layout_weight="1"
+                tools:text="0"
+                android:textSize="50sp" />
+
+            <TextView
+                android:text=":"
+                android:layout_height="match_parent"
+                android:id="@+id/textView3"
+                android:layout_alignParentTop="true"
+                android:layout_alignBottom="@+id/tabDigit4"
+                android:textStyle="normal|bold"
+                android:layout_toRightOf="@+id/tabDigit4"
+                android:layout_width="30dp"
+                android:textAlignment="center"
+                android:gravity="center_vertical|center_horizontal"
+                android:textColor="@android:color/background_light"
+                android:background="@android:color/background_dark"
+                tools:textSize="24sp"
+                android:textSize="50sp" />
+
+            <TextView
+                android:text="0"
+                android:layout_height="match_parent"
+                android:id="@+id/textView4"
+                android:layout_alignParentTop="true"
+                android:layout_alignBottom="@+id/tabDigit4"
+                android:textStyle="normal|bold"
+                android:layout_toRightOf="@+id/tabDigit4"
+                android:layout_width="30dp"
+                android:textAlignment="center"
+                android:gravity="center_vertical|center_horizontal"
+                android:textColor="@android:color/background_light"
+                android:background="@android:color/background_dark"
+                tools:textSize="24sp"
+                android:layout_weight="7"
+                tools:text="0"
+                android:textSize="50sp" />
+
+            <TextView
+                android:text="0"
+                android:layout_height="match_parent"
+                android:id="@+id/textView5"
+                android:layout_alignParentTop="true"
+                android:layout_alignBottom="@+id/tabDigit4"
+                android:textStyle="normal|bold"
+                android:layout_toRightOf="@+id/tabDigit4"
+                android:layout_width="30dp"
+                android:textAlignment="center"
+                android:gravity="center_vertical|center_horizontal"
+                android:textColor="@android:color/background_light"
+                android:background="@android:color/background_dark"
+                tools:textSize="24sp"
+                android:layout_weight="1"
+                tools:text="0"
+                android:textSize="50sp" />
+
+            <TextView
+                android:text=":"
+                android:layout_height="match_parent"
+                android:id="@+id/textView6"
+                android:layout_alignParentTop="true"
+                android:layout_alignBottom="@+id/tabDigit4"
+                android:textStyle="normal|bold"
+                android:layout_toRightOf="@+id/tabDigit4"
+                android:layout_width="30dp"
+                android:textAlignment="center"
+                android:gravity="center_vertical|center_horizontal"
+                android:textColor="@android:color/background_light"
+                android:background="@android:color/background_dark"
+                tools:textSize="24sp"
+                android:layout_weight="1"
+                android:textSize="50sp" />
+
+            <TextView
+                android:text="0"
+                android:layout_height="match_parent"
+                android:id="@+id/textView7"
+                android:layout_alignParentTop="true"
+                android:layout_alignBottom="@+id/tabDigit4"
+                android:textStyle="normal|bold"
+                android:layout_toRightOf="@+id/tabDigit4"
+                android:layout_width="30dp"
+                android:textAlignment="center"
+                android:gravity="center_vertical|center_horizontal"
+                android:textColor="@android:color/background_light"
+                android:background="@android:color/background_dark"
+                tools:textSize="24sp"
+                android:layout_weight="1"
+                android:textSize="50sp" />
+
+            <TextView
+                android:text="0"
+                android:layout_height="match_parent"
+                android:id="@+id/textView8"
+                android:layout_alignParentTop="true"
+                android:layout_alignBottom="@+id/tabDigit4"
+                android:textStyle="normal|bold"
+                android:layout_toRightOf="@+id/tabDigit4"
+                android:layout_width="30dp"
+                android:textAlignment="center"
+                android:gravity="center_vertical|center_horizontal"
+                android:textColor="@android:color/background_light"
+                android:background="@android:color/background_dark"
+                tools:textSize="24sp"
+                android:layout_weight="1"
+                tools:text="0"
+                android:textSize="50sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="3dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <Switch
+                    android:text="Pomodoro (25 minute)"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/switch1"
+                    android:checked="true"
+                    android:textStyle="normal|bold" />
+
+                <Switch
+                    android:text="Long Brake (10 minute)"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/switch2"
+                    android:textStyle="normal|bold" />
+
+                <Switch
+                    android:text="Short Brake (5 minute)"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/switch3"
+                    android:textStyle="normal|bold" />
+
+                <Switch
+                    android:text="Custom"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/switch4"
+                    android:textStyle="normal|bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Hour:"
+                android:layout_width="wrap_content"
+
+                android:layout_height="52dp"
+                android:gravity="center"
+                android:textStyle="normal|bold" />
+
+            <EditText
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:inputType="numberSigned"
+                android:ems="10"
+                android:id="@+id/editText2"
+                android:text="00"
+                android:clickable="false"
+                android:enabled="false"
+                android:digits="1234567890"
+                android:maxLength="2" />
+
+            <TextView
+                android:text="Minute:"
+                android:layout_width="wrap_content"
+                android:id="@+id/textView9"
+                android:layout_height="52dp"
+                android:gravity="center"
+                android:textStyle="normal|bold" />
+
+            <EditText
+                android:layout_height="wrap_content"
+                android:inputType="numberSigned"
+                android:ems="10"
+                android:id="@+id/editText4"
+                android:layout_width="60dp"
+                android:text="15"
+                android:clickable="false"
+                android:digits="1234567890"
+                android:maxLength="2"
+                android:enabled="false" />
+
+            <TextView
+                android:text="Second:"
+                android:layout_width="wrap_content"
+                android:id="@+id/textView10"
+                android:layout_height="52dp"
+                android:gravity="center"
+                android:textStyle="normal|bold" />
+
+            <EditText
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:inputType="numberSigned"
+                android:ems="10"
+                android:id="@+id/editText5"
+                android:text="00"
+                android:clickable="false"
+                android:enabled="false"
+                android:digits="1234567890"
+                android:maxLength="2" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+            android:padding="3dp">
+
+            <ToggleButton
+                android:text="ToggleButton"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/toggleButton"
+                android:textOff="Pause"
+                android:textOn="Start"
+                android:autoText="true"
+                android:checked="true"
+                android:textStyle="normal|bold" />
+
+            <Button
+                android:text="Reset"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/button"
+                android:textStyle="normal|bold" />
+
+            <Button
+                android:text="Stop Alarm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/button2"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:elevation="1dp"
+                android:textColorLink="@color/back2" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        digit:srcCompat="@drawable/ic_settings_black_48dp"
+                        android:id="@+id/imageView" />
+
+                    <TextView
+                        android:text="Settings"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView11"
+                        android:layout_weight="1"
+                        android:textSize="36sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <Switch
+                        android:text="Screen Always On"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/switch5"
+                        android:checked="false"
+                        android:textStyle="normal|bold" />
+
+                    <Switch
+                        android:text="System Tray"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/switch6"
+                        android:textStyle="normal|bold" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            digit:adSize="BANNER"
+            digit:adUnitId="ca-app-pub-3312738864772003/8784874329"
+            android:layout_weight="1">
+        </com.google.android.gms.ads.AdView>
+    </LinearLayout>
+
+</RelativeLayout>
